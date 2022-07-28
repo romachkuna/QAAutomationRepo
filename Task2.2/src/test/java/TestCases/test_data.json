@@ -1,0 +1,17 @@
+{
+  "tag_array": [
+    {
+      "Dota2": "Dota 2",
+      "Lifestealer": "Lifestealer",
+      "Immortal": "Immortal",
+      "golden": "\"golden\""
+    }
+  ],
+  "del_array": [
+    {
+      "Lifestealer" : "Lifestealer",
+      "Immortal" : "Immortal"
+    }
+  ]
+
+}

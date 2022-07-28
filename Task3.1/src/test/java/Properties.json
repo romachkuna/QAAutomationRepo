@@ -1,0 +1,75 @@
+{
+  "mainpage": [
+    {
+      "widgets": "//div[@class='card mt-4 top-card'][4]/div",
+      "url": "https://demoqa.com/",
+      "unique_element": "//div[@class='home-banner']",
+      "alerts": "//div[@class='card mt-4 top-card'][3]/div",
+      "elements-button": "//div[@class='card mt-4 top-card'][1]/div"
+    }
+  ],
+  "widgets": [
+    {
+      "slider": "//li[@id='item-3']/span[contains(text(),'Slider')]",
+      "slider-ue": "//div[@id='sliderContainer']",
+      "slider-input": "//input[@type='range']",
+      "slider-value": "//input[@id='sliderValue']",
+      "progressbar" : "//li[@id='item-4']/span[contains(text(),'Progress Bar')]",
+      "start-stopbtn": "//button[@id='startStopButton']",
+      "progress-value": "//div[@role='progressbar']"
+    }
+  ],
+  "links": [
+    {
+      "home": "//a[@id='simpleLink']",
+      "ue": "//div[@id='linkWrapper']"
+    }
+  ],
+  "AlertsFrameWindows": [
+    {
+      "alert": "//*[@id=\"item-1\"]/span[contains(text(),'Alerts')]",
+      "frames": "//*[@id=\"item-2\"]/span[contains(text(),'Frames')]",
+      "nested-frames": "//*[@id=\"item-3\"]/span[contains(text(),'Nested Frames')]",
+      "browser": "//*[@id=\"item-0\"]/span[contains(text(),'Browser Windows')]"
+    }
+  ],
+  "AlertsForm": [
+    {
+      "unique_element": "//div[@id='javascriptAlertsWrapper']",
+      "alert-button": "//button[@id='alertButton']",
+      "confirm-button": "//button[@id='confirmButton']",
+      "confirm-result": "//span[@id='confirmResult']",
+      "prompt-button": "//button[@id='promtButton']",
+      "prompt-result": "//span[@id='promptResult']"
+    }
+  ],
+  "elements": [
+    {
+      "links": "//*[@id=\"item-5\"]/span[contains(text(),'Links')]",
+      "elements-btn": "//div[@class='header-wrapper']/div[contains(text(),'Elements')]",
+      "web-table": "//*[@id=\"item-3\"]/span[contains(text(),'Web Tables')]",
+      "unique-element": "//div[@class='main-header']",
+      "table-form": "//form[@id='userForm']",
+      "add-button": "//button[@id='addNewRecordButton']",
+      "firstname": "//input[@id='firstName']",
+      "lastname": "//input[@id='lastName']",
+      "email": "//input[@id='userEmail']",
+      "age": "//input[@id='age']",
+      "salary": "//input[@id='salary']",
+      "department": "//input[@id='department']",
+      "submit": "//button[@id='submit']",
+      "form-elements": "//div[@class='rt-tr-group']/div/div[contains(text(),\"replace\")]",
+      "delete-item": "//div[@class='rt-tr-group']/div/div[contains(text(),\"replace\")]/../div/div/span[@title='Delete']"
+    }
+  ],
+  "new-tab": [
+    {
+      "ue": "//h1[@id=\"sampleHeading\"]"
+    }
+  ],
+  "browser": [
+    {
+      "new-tab": "//*[@id=\"tabButton\"]"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "mainpage_url" : "https://store.steampowered.com/",
+  "unique_main_xpath" : "//div[@id='home_maincap_v7']"
+}
